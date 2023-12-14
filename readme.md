@@ -93,20 +93,20 @@ You may toggle characters to use either a JvmCharacter or custom Denizen scripts
 
 Here are the events that you may use:
 
-1. `com.linebeck.hyrulebattle.CharacterAttackEvent`: Fires when a Character Attacks.
-2. `com.linebeck.hyrulebattle.CharacterBowAttackEvent`: Fires when a Character Attacks with a Bow.
-3. `com.linebeck.hyrulebattle.CharacterHurtByEntityEvent`: Fires when a Character gets hurt by an entity/player.
-4. `com.linebeck.hyrulebattle.CharacterHurtEvent`: Fires when a Character is hurt. (Non Entity).
-5. `com.linebeck.hyrulebattle.CharacterInteractEntityEvent`: Fires when a Character interacts with an entity.
-6. `com.linebeck.hyrulebattle.CharacterInteractEvent`: Fires when the Character interacts with an item.
-7. `com.linebeck.hyrulebattle.CharacterItemHeldEvent`: Fires when the Character swaps/holds an item in their inventory.
-8. `com.linebeck.hyrulebattle.CharacterMoveEvent`: Fires when the Character moves. (Handle with care.)
-9. `com.linebeck.hyrulebattle.CharacterPickupLaunchedEntityEvent`: Fires when they pick up entities like arrows or tridents.
-10. `com.linebeck.hyrulebattle.CharacterSetEquipmentEvent`: This is how you set the character's inventory.
-11. `com.linebeck.hyrulebattle.CharacterSetSkinEvent`: This is how you set the character's skin.
-12. `com.linebeck.hyrulebattle.CharacterShootBowEvent`: Fires when a Character shoots a bow.
-13. `com.linebeck.hyrulebattle.CharacterSneakEvent`: Fires when a Character toggles sneak.
-14. `com.linebeck.hyrulebattle.CharacterTickEvent`: Fires every tick. (Handle with care.)
+1. `com.linebeck.hyrulebattle.events.CharacterAttackEvent`: Fires when a Character Attacks.
+2. `com.linebeck.hyrulebattle.events.CharacterBowAttackEvent`: Fires when a Character Attacks with a Bow.
+3. `com.linebeck.hyrulebattle.events.CharacterHurtByEntityEvent`: Fires when a Character gets hurt by an entity/player.
+4. `com.linebeck.hyrulebattle.events.CharacterHurtEvent`: Fires when a Character is hurt. (Non Entity).
+5. `com.linebeck.hyrulebattle.events.CharacterInteractEntityEvent`: Fires when a Character interacts with an entity.
+6. `com.linebeck.hyrulebattle.events.CharacterInteractEvent`: Fires when the Character interacts with an item.
+7. `com.linebeck.hyrulebattle.events.CharacterItemHeldEvent`: Fires when the Character swaps/holds an item in their inventory.
+8. `com.linebeck.hyrulebattle.events.CharacterMoveEvent`: Fires when the Character moves. (Handle with care.)
+9. `com.linebeck.hyrulebattle.events.CharacterPickupLaunchedEntityEvent`: Fires when they pick up entities like arrows or tridents.
+10. `com.linebeck.hyrulebattle.events.CharacterSetEquipmentEvent`: This is how you set the character's inventory.
+11. `com.linebeck.hyrulebattle.events.CharacterSetSkinEvent`: This is how you set the character's skin.
+12. `com.linebeck.hyrulebattle.events.CharacterShootBowEvent`: Fires when a Character shoots a bow.
+13. `com.linebeck.hyrulebattle.events.CharacterSneakEvent`: Fires when a Character toggles sneak.
+14. `com.linebeck.hyrulebattle.events.CharacterTickEvent`: Fires every tick. (Handle with care.)
 
 ## Contributing
 

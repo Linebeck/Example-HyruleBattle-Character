@@ -15,7 +15,7 @@ repositories {
 dependencies {
     paperweight.paperDevBundle("1.20-R0.1-SNAPSHOT")
     compileOnly("io.papermc.paper:paper-api:1.20.1-R0.1-SNAPSHOT")
-    compileOnly("com.github.Linebeck:HyruleBattle-API:1.0.0")
+    compileOnly("com.github.Linebeck:HyruleBattle-API:1.0.2")
 }
 
 tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile::class) {

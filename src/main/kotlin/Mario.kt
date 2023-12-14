@@ -1,5 +1,6 @@
 import com.destroystokyo.paper.profile.ProfileProperty
 import com.linebeck.hyrulebattle.abstracts.JvmCharacter
+import com.linebeck.hyrulebattle.managers.BattleGameManager
 import net.kyori.adventure.text.Component
 import org.bukkit.Material
 import org.bukkit.entity.EntityType
@@ -22,7 +23,7 @@ class Mario : JvmCharacter(
         "ewogICJ0aW1lc3RhbXAiIDogMTcwMDAxMTYwMTk5OCwKICAicHJvZmlsZUlkIiA6ICJhMjk1ODZmYmU1ZDk0Nzk2OWZjOGQ4ZGE0NzlhNDNlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZXZlMjQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRmOTdhMTE4MTcyYWViMWRmNmMwODcxMjNlMWMxMjA3OWUwZTgwMDNhYjM0ZGZlODBiYjgwODRiZTg3Y2VjZSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
         "ZkqzKnTjx6VTl/WgzSTMUiP5Rn+WSw9rDO5JkEuTsZVG1u9zbD1lrwFQyVtjg6IAP51uZZeMaT4wX1H7qujZVpFr3QwaAaFUBNuM74d77Rhp8Uf0F8bgPkVoQQ8VshTcT6/2wECRIQ+Z7DcTO706PYf4hLUsL1/jwTtqFpo7o0e2AyJKDmOeeYKp9eoGF+XSko4WAggrz3Zwz443VGtfbe+GEGE/1R7DMCDFFhbomvInVsyVcNh/V1o3LUZkoUVEB27T+s+IMzHaqp97uHfaywqsm5amIwF3Ibp5EnDzWJSMVTi1hu1bWQ7fe6Jr+RpuEK5wOCdtgCo02pZVkBKok4vs0izTuBsrJyaErATokZEPIejPE8u3028sP5Rp8fWpQxU9sLOpOoNimqGYHdBqJ1Uvnlcx6em9/RCEQ7FtOjDamcqOjo24iRwxjuOzvr+a3Rr+yZEFhhBUv0hg1det9B555oeFPVwUFT56Ohw6bjI2OKwcFG9Mr6WmrhmxbexyHArMpVm+x7ltWgY3aYBui9/hOLCavO1LwZI/Qr0nC3UCLS67mD46XAVRY8/D8Uc99k+ygSr4uDBzN/WyRgheL8UQAk0kyX+q/FeE8OP7IrpwtXWWzG8UX6X9WMk3ifpKg3fAYWVA3ql+OyxGpp/mDTBDBqARTzRoOGxLzJtd+9g="
     ),
-    "hyrulecore.sounds.mario", // This reflects the resource-pack's sound location.
+    "hyrulecore.characters.mario.wahoo", // This reflects the resource-pack's sound location.
     health = 20.0f, // 2.0f = 1 heart.
 ) {
 
